@@ -1,5 +1,7 @@
 # Adding FinBERT to HuggingFace Transformers
 
+The pre-trained model weights have been taken from the [ProsusAI/finBERT](https://github.com/ProsusAI/finBERT) repository.
+
 A conversion script and config file was written to fetch the original pre-trained weights and load it into an existing PyTorch model. Tests were written to check that the weights for each layer were correctly imported.
 
 The following classes were added to create the PreTrainedModel:
